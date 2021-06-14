@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftServerHostLib", "MinecraftServerHostLib\MinecraftServerHostLib.csproj", "{C1B03837-27FB-44C9-9611-1389C83871E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15DA38FD-4162-419F-A011-5A4825B85551}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftServerHostLib.Tests", "MinecraftServerHostLib.Tests\MinecraftServerHostLib.Tests.csproj", "{A56F5B95-AC4E-448F-8B5E-4404B82BE019}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B03837-27FB-44C9-9611-1389C83871E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B03837-27FB-44C9-9611-1389C83871E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B03837-27FB-44C9-9611-1389C83871E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B03837-27FB-44C9-9611-1389C83871E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56F5B95-AC4E-448F-8B5E-4404B82BE019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56F5B95-AC4E-448F-8B5E-4404B82BE019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56F5B95-AC4E-448F-8B5E-4404B82BE019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56F5B95-AC4E-448F-8B5E-4404B82BE019}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81976FA7-3C2F-4D69-8D69-BBEB1DF692A2}
+	EndGlobalSection
+EndGlobal
